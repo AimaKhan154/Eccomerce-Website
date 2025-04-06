@@ -1,0 +1,951 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce Header</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css"> 
+    <link rel="stylesheet" href="Script.js">
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="Brand/logo-colored.svg" alt="Brand Logo">
+        </div>
+    
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search">
+            <select class="category-dropdown">
+                <option>All category</option>
+                <option>Electronics</option>
+                <option>Clothes and Wear</option>
+                <option>Machinery Tools</option>
+                <option>Sports and Outdoor</option>
+                <option>More Option</option>
+            </select>
+            <button class="search-button">Search</button>
+        </div>
+    
+        <div class="icons">
+            <div class="icon">
+                <i class="ph ph-user"></i>
+                <a href="Profile" class="user">Profile</a>
+            </div>
+            <div class="icon">
+                <i class="ph ph-chat"></i>
+                <a href="Message" class="message">Message</a>
+            </div>
+            <div class="icon">
+                <i class="ph ph-heart"></i>
+                <a href="Order" class="order">Order</a>
+            </div>
+            <div class="icon">
+                <i class="ph ph-shopping-cart"></i>
+                <a href="Cart" class="cart">My Cart</a>
+            </div>
+        </div>
+    </header>
+    
+    
+
+    <div class="sub-header">
+        <div class="category">
+            <a href="#">All Category</a>
+            <a href="#">Hot Offers</a>
+            <a href="#">Gift Boxes</a>
+            <a href="#">Projects</a>
+            <a href="#">Menu Item</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="country-pay">
+            <select>
+                <option value="usd">English, USD</option>
+                <option value="pkr">Pakistan, Rupees</option>
+                <option value="eur">Germany, Euro</option>
+                <option value="rub">Russian, Ruble</option>
+                <option value="rub">China,Yuan</option>
+            </select>
+        </div>
+
+        <div class="ship">
+            <select name="country" id="country">
+                <option value="">Ship to USA </option>
+                <option value="">Ship to China </option>
+                <option value="">Ship to Russia</option>
+                <option value="">Ship to Germany</option>
+      </select>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="section">
+            <div class="list">
+                <ul>
+                    <li class="active">
+                        <a href="automobiles.html" style="text-decoration: none; color: black;">Automobiles</a>
+                    </li>
+                    <li>
+                        <a href="clothes.html" style="text-decoration: none; color: black;">Clothes and Wear</a>
+                    </li>
+                    <li>
+                        <a href="home_interior.html" style="text-decoration: none; color: black;">Home Interior</a>
+                    </li>
+                    <li>
+                        <a href="electronic.html" style="text-decoration: none; color: black;">Electronic Gadgets</a>
+                    </li>
+                    <li>
+                        <a href="tools.html" style="text-decoration: none; color: black;">Tools, Equipment</a>
+                    </li>
+                    <li>
+                        <a href="sports.html" style="text-decoration: none; color: black;">Sports and Outdoor</a>
+                    </li>
+                    <li>
+                        <a href="pets.html" style="text-decoration: none; color: black;">Animal and Pets</a>
+                    </li>
+                    <li>
+                        <a href="machinery.html" style="text-decoration: none; color: black;">Machinery Tools</a>
+                    </li>
+                    <li>
+                        <a href="more.html" style="text-decoration: none; color: black;">More Category</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    
+        <div class="content">
+            <div class="img-section">
+                <h2>Latest trending</h2>
+                <h1>Electronic items</h1>
+                <button>Learn more</button>
+            </div>
+    
+            <div class="info-box">
+                <div class="welcome-card">
+                    <p>Hi, user<br>Let's get started</p>
+                    <button class="btn-blue">Join now</button>
+                    <button class="btn-white">Log in</button>
+                </div>
+                <div class="offer-card">Get US $10 off with a new supplier</div>
+                <div class="quote-card">Send quotes with supplier preferences</div>
+            </div>
+        </div>
+    </div>
+    
+
+    <div class="deals-section">
+        <div class="timer-section">
+            <h4>Deals and offers</h4>
+            <p>Hygiene equipments</p>
+            <div class="timer">
+                <div class="time-box"><span id="days">04</span> Days</div>
+                <div class="time-box"><span id="hours">13</span> Hour</div>
+                <div class="time-box"><span id="minutes">34</span> Min</div>
+                <div class="time-box"><span id="seconds">56</span> Sec</div>
+            </div>
+        </div>
+
+        <div class="product-section">
+            <div class="product">
+                <img src="Image/tech/8.jpg" alt="Smart Watch">
+                <p>Smart watches</p>
+                <span class="discount">-25%</span>
+            </div>
+
+            <div class="product">
+                <img src="Image/tech/7.jpg" alt="Laptop">
+                <p>Laptops</p>
+                <span class="discount">-15%</span>
+            </div>
+
+            <div class="product">
+                <img src="Image/tech/6.jpg" alt="GoPro Camera">
+                <p>GoPro cameras</p>
+                <span class="discount">-40%</span>
+            </div>
+
+            <div class="product">
+                <img src="Image/tech/5.jpg" alt="Headphones">
+                <p>Headphones</p>
+                <span class="discount">-25%</span>
+            </div>
+
+            <div class="product">
+                <img src="Image/tech/3.jpg" alt="Canon Camera">
+                <p>Canon cameras</p>
+                <span class="discount">-25%</span>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+
+
+    <div class="Home-decor">
+        <div class="home">
+            <h3>Home and</h3>
+            <h3>Outdoor</h3>
+            <button>Source Now</button>
+        </div>
+        <div class="items-container">
+            <div class="item">
+                <h6>Sofa Chair</h6>
+                <p>From USD 19</p>
+                <img src="Image/interior/1.jpg" alt="Soft chairs">
+            </div>
+            <div class="item">
+                <h6>Sofa</h6>
+                <p>From USD 19</p>
+                <img src="Image/interior/2.jpg" alt="Sofa & chair">
+            </div>
+            <div class="item">
+                <h6>Hand Made Cup</h6>
+                <p>From USD 19</p>
+                <img src="Image/interior/3.jpg" alt="Kitchen dishes">
+            </div>
+            <div class="item">
+                <h6>Plant</h6>
+                <p>From USD 19</p>
+                <img src="Image/interior/4.jpg" alt="Smart watches">
+            </div>
+            <div class="item">
+                <h6>Soft Bed</h6>
+                <p>From USD 100</p>
+                <img src="Image/interior/5.jpg" alt="Kitchen mixer">
+            </div>
+            <div class="item">
+                <h6>Lamp</h6>
+                <p>From USD 39</p>
+                <img src="Image/interior/6.jpg" alt="Blenders">
+            </div>
+            <div class="item">
+                <h6>Folding Chair</h6>
+                <p>From USD 19</p>
+                <img src="Image/interior/7.jpg" alt="Home appliance">
+            </div>
+            <div class="item">
+                <h6>Coffee maker</h6>
+                <p>From USD 10</p>
+                <img src="Image/interior/8.jpg" alt="Coffee maker">
+            </div>
+        </div>
+    </div>
+    <div class="Electronic-gadgets">
+        <div class="electronic">
+            <h3>Consumer</h3>
+            <h3>Electronic & Gadgets</h3>
+            <button>Source Now</button>
+        </div>
+        <div class="items2-container">
+            <div class="item">
+                <h6>Smart Watch</h6>
+                <p>From USD 19</p>
+                <img src="Image/tech/8.jpg" alt="Smart Watch">
+            </div>
+            <div class="item">
+                <h6>Camera</h6>
+                <p>From USD 19</p>
+                <img src="Image/tech/6.jpg" alt="Camera">
+            </div>
+            <div class="item">
+                <h6>Headphones</h6>
+                <p>From USD 19</p>
+                <img src="Image/tech/9.jpg" alt="Headphones">
+            </div>
+            <div class="item">
+                <h6>Electric Kettle</h6>
+                <p>From USD 19</p>
+                <img src="Image/tech/10.jpg" alt="Kettle">
+            </div>
+            <div class="item">
+                <h6>Gaming Set</h6>
+                <p>From USD 100</p>
+                <img src="Image/tech/5.jpg" alt="Gaming Set">
+            </div>
+            <div class="item">
+                <h6>Laptops and PC</h6>
+                <p>From USD 39</p>
+                <img src="Image/tech/7.jpg" alt="Laptops and PC">
+            </div>
+            <div class="item">
+                <h6>Smartphones</h6>
+                <p>From USD 19</p>
+                <img src="Image/tech/3.jpg" alt="Smartphones">
+            </div>
+            <div class="item">
+                <h6>Samsung S7 Ultra Pro Max</h6>
+                <p>From USD 10</p>
+                <img src="Image/tech/4.jpg" alt="Samsung S7 Ultra Pro Max">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="info-section">
+            <h1>An easy way to send requests to all suppliers</h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+        </div>
+        <div class="form-section">
+            <h3>Send quote to suppliers</h3>
+            <form id="supplierForm">
+                <input type="text" id="itemName" placeholder="What item you need?" required>
+                <textarea id="itemDetails" placeholder="Type more details"></textarea>
+                <input type="number" id="quantity" placeholder="Quantity" required>
+                <select id="unit">
+                    <option value="pcs">Pcs</option>
+                    <option value="kg">Kg</option>
+                    <option value="liters">Liters</option>
+                </select>
+                <button type="submit" class="BTN">Send inquiry</button>
+            </form>
+        </div>
+    </div>
+
+
+    <div class="recommended">
+        <h2>Recommended items</h2>
+        <div class="items-container">
+            <div class="item">
+                <img src="Image/cloth/2.jpg" alt="T-shirt">
+                <p class="price">$10.30</p>
+                <p>T-shirts with multiple colors, for men</p>
+            </div>
+            <div class="item">
+                <img src="Image/cloth/4.jpg"alt="Jacket">
+                <p class="price">$10.30</p>
+                <p>Jeans shorts for men blue color</p>
+            </div>
+            <div class="item">
+                <img src="Image/cloth/3.jpg" alt="Coat">
+                <p class="price">$12.50</p>
+                <p>Brown winter coat medium size</p>
+            </div>
+            <div class="item">
+                <img src="Image/cloth/5.jpg" alt="Wallet">
+                <p class="price">$34.00</p>
+                <p>Jeans bag for travel for men</p>
+            </div>
+            <div class="item">
+                <img src="Image/cloth/6.jpg" alt="Backpack">
+                <p class="price">$99.00</p>
+                <p>Leather wallet</p>
+            </div>
+            <div class="item">
+                <img src="Image/cloth/7.jpg" alt="Formal Attire">
+                <p class="price">$99.00</p>
+                <p>Formal Attire</p>
+            </div>
+            <div class="item">
+                <img src="Image/tech/9.jpg" alt="Headphones">
+                <p class="price">$99.00</p>
+                <p>Headphones</p>
+            </div>
+            <div class="item">
+                <img src="Image/tech/10.jpg" alt="Electric Kettle">
+                <p class="price">$99.00</p>
+                <p>Electric Kettle</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="services-container">
+        <h2>Our extra services</h2>
+        <div class="services">
+            <div class="service-card">
+                <img src="Screenshot 2025-03-15 013457.png" alt="Source from Industry Hubs">
+                <div class="service-content">Source from Industry Hubs</div>
+            </div>
+            <div class="service-card">
+                <img src="img.png" alt="Customize Your Products">
+                <div class="service-content">Customize Your Products</div>
+            </div>
+            <div class="service-card">
+                <img src="img2png.png" alt="Fast, reliable shipping">
+                <div class="service-content">Fast, reliable shipping by ocean or air</div>
+            </div>
+            <div class="service-card">
+                <img src="img1.png" alt="Product monitoring">
+                <div class="service-content">Product monitoring and inspection</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="suppliers-container">
+        <h2>Suppliers by region</h2>
+        <div class="suppliers">
+            <div class="supplier-item"><img src="flags/Arab Emirates.png" alt="UAE Flag">Arabic Emirates - UAE.ae</div>
+            <div class="supplier-item"><img src="flags/Australia.png" alt="Australia Flag">Australia - Australia.au</div>
+            <div class="supplier-item"><img src="flags/USA.png" alt="USA Flag">United States - USA.us</div>
+            <div class="supplier-item"><img src="flags/Russia.png" alt="Russia Flag">Russia - Russia.ru</div>
+            <div class="supplier-item"><img src="flags/Italy.png" alt="Italy Flag">Italy - Italy.it</div>
+            <div class="supplier-item"><img src="flags/Denmark.png" alt="Denmark Flag">Denmark - denmark.com.dk</div>
+            <div class="supplier-item"><img src="flags/France.png" alt="France Flag">France - France.com.fr</div>
+            <div class="supplier-item"><img src="flags/China.png" alt="China Flag">China - China.cn</div>
+            <div class="supplier-item"><img src="flags/UK.png" alt="UK Flag">Great Britain - UK.co.uk</div>
+        </div>
+    </div>
+
+
+    <footer>
+    <div class="footer-container">
+        <div class="newsletter">
+            <h2> <span style="color: black;">Subscribe on our newsletter</span></h2>
+            <p><span style="color: black;">Get daily news on upcoming offers from many suppliers all over the world</span></p>
+            <input type="email" placeholder="Email">
+            <button ><span style="color: rgb(255, 255, 255);">Subscribe</span></button>
+        </div>
+
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section brand-info">
+                    <img src="Brand/logo-colored.svg" alt="">
+                    <p>Best information about the company goes here but now lorem ipsum is</p>
+                    <div class="social-icons">
+                        <img src="SNS/icons8-facebook-60.png" alt="Facebook">
+                        <img src="SNS/icons8-twitter-bird-50.png" alt="Twitter">
+                        <img src="SNS/icons8-linkedin-50.png" alt="LinkedIn">
+                        <img src="SNS/youtube.png" alt="YouTube">
+                    </div>
+                </div>
+    
+                <div class="footer-section">
+                    <h3> <span style="color: black;">About</span></h3>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Find store</li>
+                        <li>Categories</li>
+                        <li>Blogs</li>
+                    </ul>
+                </div>
+    
+                <div class="footer-section">
+                    <h3 ><span style="color: black;">Partnership</span></h3>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Find store</li>
+                        <li>Categories</li>
+                        <li>Blogs</li>
+                    </ul>
+                </div>
+    
+                <div class="footer-section">
+                    <h3><span style="color: black;">Information</span></h3>
+                    <ul>
+                        <li>Help Center</li>
+                        <li>Money Refund</li>
+                        <li>Shipping</li>
+                        <li>Contact us</li>
+                    </ul>
+                </div>
+    
+                <div class="footer-section">
+                    <h3><span style="color: black;">For users</span></h3>
+                    <ul>
+                        <li>Login</li>
+                        <li>Register</li>
+                        <li>Settings</li>
+                        <li>My Orders</li>
+                    </ul>
+                </div>
+    
+                
+    
+            
+        </div>
+        <div class="footer-bottom">
+            &copy; 2023 Ecommerce. <br>
+          
+        </div>
+    </footer>
+</body>
+</html>
+
+<br><br>
+<br><br>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic-gadgets</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="Brand/logo-colored.svg" alt="Brand Logo">
+        </div>
+    
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search">
+            <select class="category-dropdown">
+                <option>All category</option>
+                <option>Electronics</option>
+                <option>Clothes and Wear</option>
+                <option>Machinery Tools</option>
+                <option>Sports and Outdoor</option>
+                <option>More Option</option>
+            </select>
+            <button class="search-button">Search</button>
+        </div>
+    
+        <div class="icons">
+            <div class="icon">
+                <i class="ph ph-user"></i>
+                <a href="Profile" class="user">Profile</a>
+            </div>
+            <div class="icon">
+                <i class="ph ph-chat"></i>
+                <a href="Message" class="message">Message</a>
+            </div>
+            <div class="icon">
+                <i class="ph ph-heart"></i>
+                <a href="Order" class="order">Order</a>
+            </div>
+            <div class="icon">
+                <i class="ph ph-shopping-cart"></i>
+                <a href="Cart" class="cart">My Cart</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="sub-header">
+        <div class="category">
+            <a href="#">All Category</a>
+            <a href="#">Hot Offers</a>
+            <a href="#">Gift Boxes</a>
+            <a href="#">Projects</a>
+            <a href="#">Menu Item</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="country-pay">
+            <select>
+                <option value="usd">English, USD</option>
+                <option value="pkr">Pakistan, Rupees</option>
+                <option value="eur">Germany, Euro</option>
+                <option value="rub">Russian, Ruble</option>
+                <option value="rub">China,Yuan</option>
+            </select>
+        </div>
+
+        <div class="ship">
+            <select name="country" id="country">
+                <option value="">Ship to USA </option>
+                <option value="">Ship to China </option>
+                <option value="">Ship to Russia</option>
+                <option value="">Ship to Germany</option>
+      </select>
+        </div>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <h3>Filters</h3>
+            <div class="filters">
+                <h4>Category</h4>
+                <label><input type="checkbox"> Mobile accessory</label>
+                <label><input type="checkbox"> Electronics</label>
+                <label><input type="checkbox"> Smartphones</label>
+                <label><input type="checkbox"> Modern tech</label>
+                <h4>Brands</h4>
+                <label><input type="checkbox"> Samsung</label>
+                <label><input type="checkbox"> Apple</label>
+                <label><input type="checkbox"> Huawei</label>
+                <label><input type="checkbox"> Poco</label>
+                <label><input type="checkbox"> Lenovo</label>
+                <h4>Features</h4>
+                <label><input type="checkbox"> Metallic</label>
+                <label><input type="checkbox"> Plastic cover</label>
+                <label><input type="checkbox"> 8GB RAM</label>
+                <label><input type="checkbox"> Super power</label>
+                <label><input type="checkbox"> Large Memory</label>
+                <h4>Price range</h4>
+                <div class="price-range">
+                    <label>Min <input type="number" min="0" value="0"></label>
+                    <label>Max <input type="number" min="0" value="999999"></label>
+                </div>
+                <button class="apply-btn">Apply</button>
+                <h4>Condition</h4>
+                <label><input type="radio" name="condition" checked> Any</label>
+                <label><input type="radio" name="condition"> Refurbished</label>
+                <label><input type="radio" name="condition"> Brand new</label>
+                <label><input type="radio" name="condition"> Old items</label>
+                <h4>Ratings</h4>
+                <label>⭐⭐⭐⭐⭐</label>
+                <label>⭐⭐⭐⭐☆</label>
+                <label>⭐⭐⭐☆☆</label>
+            </div>
+        </div>
+        <div class="products">
+            <div class="product">
+                <img src="Image/tech/2.jpg" alt="Product 1">
+                <div class="product-details">
+                    <h4>Canon Phone EOS 2000, Black 10x zoom</h4>
+                    <p class="price">$998.00<span class="old-price">$1120.00</span></p>
+                    <p>⭐ 7.5 | 154 orders | <span style="color: green;">Free Shipping</span></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#">View details</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Image/tech/1.jpg" alt="Product 2">
+                <div class="product-details">
+                    <h4>BMW  2000 Phone, Red 10x zoom </h4>
+                    <p class="price">$1100.00<span class="old-price">$1120.00</span></p>
+                    <p>⭐ 9.5 | 389 orders | <span style="color: green;">Free Shipping</span></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#">View details</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Image/tech/3.jpg" alt="Product 3">
+                <div class="product-details">
+                    <h4>Samsung 2000, Black 10x zoom</h4>
+                    <p class="price">$999.00<span class="old-price">$1120.00</span></p>
+                    <p>⭐ 6.5 | 134 orders | <span style="color: green;">Free Shipping</span></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#">View details</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Image/tech/4.jpg" alt="Product 4">
+                <div class="product-details">
+                    <h4>Samsung, Blue 20x zoom</h4>
+                    <p class="price">$111.00<span class="old-price">$1120.00</span></p>
+                    <p>⭐ 8.5 | 853 orders | <span style="color: green;">Free Shipping</span></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#">View details</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Image/tech/5.jpg" alt="Product 5">
+                <div class="product-details">
+                    <h4>Headphones,Gaming,Clear Sound Quality</h4>
+                    <p class="price">$789.00<span class="old-price">$900.00</span></p>
+                    <p>⭐ 7.5 | 776 orders | <span style="color: green;">Free Shipping</span></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#">View details</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Image/tech/6.jpg" alt="Product 6">
+                <div class="product-details">
+                    <h4>Canon Camera EOS 2000, Black 10x zoom</h4>
+                    <p class="price">$998.00<span class="old-price">$1120.00</span></p>
+                    <p>⭐ 7.5 | 154 orders | <span style="color: green;">Free Shipping</span></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#">View details</a>
+                </div>
+            </div>
+            <div class="pagination">
+                <a href="#">&laquo;</a>
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">&raquo;</a>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="newsletter">
+                <h2> <span style="color: black;">Subscribe on our newsletter</span></h2>
+                <p><span style="color: black;">Get daily news on upcoming offers from many suppliers all over the world</span></p>
+                <input type="email" placeholder="Email">
+                <button ><span style="color: rgb(255, 255, 255);">Subscribe</span></button>
+            </div>
+    
+            <div class="footer-container">
+                <div class="footer-content">
+                    <div class="footer-section brand-info">
+                        <img src="Brand/logo-colored.svg" alt="">
+                        <p>Best information about the company goes here but now lorem ipsum is</p>
+                        <div class="social-icons">
+                            <img src="SNS/icons8-facebook-60.png" alt="Facebook">
+                            <img src="SNS/icons8-twitter-bird-50.png" alt="Twitter">
+                            <img src="SNS/icons8-linkedin-50.png" alt="LinkedIn">
+                            <img src="SNS/youtube.png" alt="YouTube">
+                        </div>
+                    </div>
+        
+                    <div class="footer-section">
+                        <h3> <span style="color: black;">About</span></h3>
+                        <ul>
+                            <li>About Us</li>
+                            <li>Find store</li>
+                            <li>Categories</li>
+                            <li>Blogs</li>
+                        </ul>
+                    </div>
+        
+                    <div class="footer-section">
+                        <h3 ><span style="color: black;">Partnership</span></h3>
+                        <ul>
+                            <li>About Us</li>
+                            <li>Find store</li>
+                            <li>Categories</li>
+                            <li>Blogs</li>
+                        </ul>
+                    </div>
+        
+                    <div class="footer-section">
+                        <h3><span style="color: black;">Information</span></h3>
+                        <ul>
+                            <li>Help Center</li>
+                            <li>Money Refund</li>
+                            <li>Shipping</li>
+                            <li>Contact us</li>
+                        </ul>
+                    </div>
+        
+                    <div class="footer-section">
+                        <h3><span style="color: black;">For users</span></h3>
+                        <ul>
+                            <li>Login</li>
+                            <li>Register</li>
+                            <li>Settings</li>
+                            <li>My Orders</li>
+                        </ul>
+                    </div>
+        
+                    
+        
+                
+            </div>
+            <div class="footer-bottom">
+                &copy; 2023 Ecommerce. <br>
+              
+            </div>
+        </footer>
+    
+</body>
+</html>
+
+<br><br>
+<br><br>
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Cart</title>
+  <link rel="stylesheet" href="style2.css" />
+</head>
+<body class="cart-page-body">
+
+
+    <header class="header">
+        <div class="logo">
+            <img src="Brand/logo-colored.svg" alt="Brand Logo">
+        </div>
+    
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search">
+            <select class="category-dropdown">
+                <option>All category</option>
+                <option>Electronics</option>
+                <option>Clothes and Wear</option>
+                <option>Machinery Tools</option>
+                <option>Sports and Outdoor</option>
+                <option>More Option</option>
+            </select>
+            <button class="search-button">Search</button>
+        </div>
+    
+        <div class="icons">
+            <div class="icon">
+                <i class="ph ph-user"></i>
+                <a href="Profile" class="user">Profile</a>
+            </div>
+            <div class="icon">
+                <i class="ph ph-chat"></i>
+                <a href="Message" class="message">Message</a>
+            </div>
+            <div class="icon">
+                <i class="ph ph-heart"></i>
+                <a href="Order" class="order">Order</a>
+            </div>
+            <div class="icon">
+                <i class="ph ph-shopping-cart"></i>
+                <a href="Cart" class="cart">My Cart</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="cart">
+          <h2>My cart (3)</h2>
+    
+          <div class="cart-item">
+            <img src="Image/cloth/1.jpg" alt="Product">
+            <div class="item-info">
+              <p><strong>T-shirts with multiple colors, for men and lady</strong></p>
+              <p>Size: medium, Color: blue, Material: Plastic</p>
+              <p>Seller: Artel Market</p>
+            </div>
+            <div class="actions">
+              <select>
+                <option>Qty: 9</option>
+              </select>
+              <button class="remove">Remove</button>
+              <button class="save">Save for later</button>
+              <p><strong>$78.99</strong></p>
+            </div>
+          </div>
+    
+          <div class="cart-item">
+            <img src="Image/cloth/2.jpg" alt="Product">
+            <div class="item-info">
+              <p><strong>T-shirts with multiple colors, for men and lady</strong></p>
+              <p>Size: medium, Color: blue, Material: polyster</p>
+              <p>Seller: Best Factory LLC</p>
+            </div>
+            <div class="actions">
+              <select>
+                <option>Qty: 3</option>
+              </select>
+              <button class="remove">Remove</button>
+              <button class="save">Save for later</button>
+              <p><strong>$39.00</strong></p>
+            </div>
+          </div>
+    
+          <div class="cart-item">
+            <img src="Image/cloth/5.jpg" alt="Product">
+            <div class="item-info">
+              <p><strong>Bag, for men and lady</strong></p>
+              <p>Size: medium, Color: blue, Material: Plastic</p>
+              <p>Seller: Artel Market</p>
+            </div>
+            <div class="actions">
+              <select>
+                <option>Qty: 1</option>
+              </select>
+              <button class="remove">Remove</button>
+              <button class="save">Save for later</button>
+              <p><strong>$170.50</strong></p>
+            </div>
+          </div>
+    
+          <div class="cart-controls">
+            <button class="back-btn">⬅ Back to shop</button>
+            <button class="remove-all">Remove all</button>
+          </div>
+        </div>
+    
+        <div class="summary">
+          <label>Have a coupon?</label>
+          <input type="text" placeholder="Add coupon">
+          <button class="apply">Apply</button>
+    
+          <div class="details">
+            <p>Subtotal: <span>$1403.97</span></p>
+            <p>Discount: <span style="color:red;">- $60.00</span></p>
+            <p>Tax: <span style="color:green;">+ $14.00</span></p>
+            <p class="total">Total: <span>$1357.97</span></p>
+          </div>
+    
+          <button class="checkout">Checkout</button>
+          <div class="payment-icons">
+            <p>Visa • MasterCard • Apple Pay</p>
+          </div>
+        </div>
+      </div>
+    
+      <div class="footer">
+        <div>
+          <strong>Secure payment</strong>
+          <p>Have you ever finally just</p>
+        </div>
+        <div>
+          <strong>Customer support</strong>
+          <p>Have you ever finally just</p>
+        </div>
+        <div>
+          <strong>Free delivery</strong>
+          <p>Have you ever finally just</p>
+        </div>
+      </div>
+    
+
+ 
+        <div class="footer-container">
+            <div class="footer-content">
+                <div class="footer-section brand-info">
+                    <img src="Brand/logo-colored.svg" alt="">
+                    <p>Best information about the company goes here but now lorem ipsum is</p>
+                    <div class="social-icons">
+                        <img src="SNS/icons8-facebook-60.png" alt="Facebook">
+                        <img src="SNS/icons8-twitter-bird-50.png" alt="Twitter">
+                        <img src="SNS/icons8-linkedin-50.png" alt="LinkedIn">
+                        <img src="SNS/youtube.png" alt="YouTube">
+                    </div>
+                </div>
+    
+                <div class="footer-section">
+                    <h3> <span style="color: black;">About</span></h3>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Find store</li>
+                        <li>Categories</li>
+                        <li>Blogs</li>
+                    </ul>
+                </div>
+    
+                <div class="footer-section">
+                    <h3 ><span style="color: black;">Partnership</span></h3>
+                    <ul>
+                        <li>About Us</li>
+                        <li>Find store</li>
+                        <li>Categories</li>
+                        <li>Blogs</li>
+                    </ul>
+                </div>
+    
+                <div class="footer-section">
+                    <h3><span style="color: black;">Information</span></h3>
+                    <ul>
+                        <li>Help Center</li>
+                        <li>Money Refund</li>
+                        <li>Shipping</li>
+                        <li>Contact us</li>
+                    </ul>
+                </div>
+    
+                <div class="footer-section">
+                    <h3><span style="color: black;">For users</span></h3>
+                    <ul>
+                        <li>Login</li>
+                        <li>Register</li>
+                        <li>Settings</li>
+                        <li>My Orders</li>
+                    </ul>
+                </div>
+    
+        
+            </div>
+            <div class="footer-bottom">
+                &copy; 2023 Ecommerce. <br>
+              
+            </div>
+        </footer>
+    
+    </body>
+    </html>
+    

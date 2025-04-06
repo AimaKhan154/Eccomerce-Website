@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electronic-gadgets</title>
+    <link rel="stylesheet" href="style1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="Brand/logo-colored.svg" alt="Brand Logo">
+        </div>
+    
+        <div class="search-container">
+            <input type="text" class="search-input" placeholder="Search">
+            <select class="category-dropdown">
+                <option>All category</option>
+                <option>Electronics</option>
+                <option>Clothes and Wear</option>
+                <option>Machinery Tools</option>
+                <option>Sports and Outdoor</option>
+                <option>More Option</option>
+            </select>
+            <button class="search-button">Search</button>
+        </div>
+    
+        <div class="icons">
+            <div class="icon">
+                <i class="ph ph-user"></i>
+                <a href="Profile" class="user">Profile</a>
+            </div>
+            <div class="icon">
+                <i class="ph ph-chat"></i>
+                <a href="Message" class="message">Message</a>
+            </div>
+            <div class="icon">
+                <i class="ph ph-heart"></i>
+                <a href="Order" class="order">Order</a>
+            </div>
+            <div class="icon">
+                <i class="ph ph-shopping-cart"></i>
+                <a href="Cart" class="cart">My Cart</a>
+            </div>
+        </div>
+    </header>
+
+    <div class="sub-header">
+        <div class="category">
+            <a href="#">All Category</a>
+            <a href="#">Hot Offers</a>
+            <a href="#">Gift Boxes</a>
+            <a href="#">Projects</a>
+            <a href="#">Menu Item</a>
+            <a href="#">Help</a>
+        </div>
+        <div class="country-pay">
+            <select>
+                <option value="usd">English, USD</option>
+                <option value="pkr">Pakistan, Rupees</option>
+                <option value="eur">Germany, Euro</option>
+                <option value="rub">Russian, Ruble</option>
+                <option value="rub">China,Yuan</option>
+            </select>
+        </div>
+
+        <div class="ship">
+            <select name="country" id="country">
+                <option value="">Ship to USA </option>
+                <option value="">Ship to China </option>
+                <option value="">Ship to Russia</option>
+                <option value="">Ship to Germany</option>
+      </select>
+        </div>
+    </div>
+    <div class="container">
+        <div class="sidebar">
+            <h3>Filters</h3>
+            <div class="filters">
+                <h4>Category</h4>
+                <label><input type="checkbox"> Mobile accessory</label>
+                <label><input type="checkbox"> Electronics</label>
+                <label><input type="checkbox"> Smartphones</label>
+                <label><input type="checkbox"> Modern tech</label>
+                <h4>Brands</h4>
+                <label><input type="checkbox"> Samsung</label>
+                <label><input type="checkbox"> Apple</label>
+                <label><input type="checkbox"> Huawei</label>
+                <label><input type="checkbox"> Poco</label>
+                <label><input type="checkbox"> Lenovo</label>
+                <h4>Features</h4>
+                <label><input type="checkbox"> Metallic</label>
+                <label><input type="checkbox"> Plastic cover</label>
+                <label><input type="checkbox"> 8GB RAM</label>
+                <label><input type="checkbox"> Super power</label>
+                <label><input type="checkbox"> Large Memory</label>
+                <h4>Price range</h4>
+                <div class="price-range">
+                    <label>Min <input type="number" min="0" value="0"></label>
+                    <label>Max <input type="number" min="0" value="999999"></label>
+                </div>
+                <button class="apply-btn">Apply</button>
+                <h4>Condition</h4>
+                <label><input type="radio" name="condition" checked> Any</label>
+                <label><input type="radio" name="condition"> Refurbished</label>
+                <label><input type="radio" name="condition"> Brand new</label>
+                <label><input type="radio" name="condition"> Old items</label>
+                <h4>Ratings</h4>
+                <label>⭐⭐⭐⭐⭐</label>
+                <label>⭐⭐⭐⭐☆</label>
+                <label>⭐⭐⭐☆☆</label>
+            </div>
+        </div>
+        <div class="products">
+            <div class="product">
+                <img src="Image/tech/2.jpg" alt="Product 1">
+                <div class="product-details">
+                    <h4>Canon Phone EOS 2000, Black 10x zoom</h4>
+                    <p class="price">$998.00<span class="old-price">$1120.00</span></p>
+                    <p>⭐ 7.5 | 154 orders | <span style="color: green;">Free Shipping</span></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#">View details</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Image/tech/1.jpg" alt="Product 2">
+                <div class="product-details">
+                    <h4>BMW  2000 Phone, Red 10x zoom </h4>
+                    <p class="price">$1100.00<span class="old-price">$1120.00</span></p>
+                    <p>⭐ 9.5 | 389 orders | <span style="color: green;">Free Shipping</span></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#">View details</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Image/tech/3.jpg" alt="Product 3">
+                <div class="product-details">
+                    <h4>Samsung 2000, Black 10x zoom</h4>
+                    <p class="price">$999.00<span class="old-price">$1120.00</span></p>
+                    <p>⭐ 6.5 | 134 orders | <span style="color: green;">Free Shipping</span></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#">View details</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Image/tech/4.jpg" alt="Product 4">
+                <div class="product-details">
+                    <h4>Samsung, Blue 20x zoom</h4>
+                    <p class="price">$111.00<span class="old-price">$1120.00</span></p>
+                    <p>⭐ 8.5 | 853 orders | <span style="color: green;">Free Shipping</span></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#">View details</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Image/tech/5.jpg" alt="Product 5">
+                <div class="product-details">
+                    <h4>Headphones,Gaming,Clear Sound Quality</h4>
+                    <p class="price">$789.00<span class="old-price">$900.00</span></p>
+                    <p>⭐ 7.5 | 776 orders | <span style="color: green;">Free Shipping</span></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#">View details</a>
+                </div>
+            </div>
+            <div class="product">
+                <img src="Image/tech/6.jpg" alt="Product 6">
+                <div class="product-details">
+                    <h4>Canon Camera EOS 2000, Black 10x zoom</h4>
+                    <p class="price">$998.00<span class="old-price">$1120.00</span></p>
+                    <p>⭐ 7.5 | 154 orders | <span style="color: green;">Free Shipping</span></p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <a href="#">View details</a>
+                </div>
+            </div>
+            <div class="pagination">
+                <a href="#">&laquo;</a>
+                <a href="#" class="active">1</a>
+                <a href="#">2</a>
+                <a href="#">3</a>
+                <a href="#">4</a>
+                <a href="#">&raquo;</a>
+            </div>
+        </div>
+    </div>
+
+
+    <footer>
+        <div class="footer-container">
+            <div class="newsletter">
+                <h2> <span style="color: black;">Subscribe on our newsletter</span></h2>
+                <p><span style="color: black;">Get daily news on upcoming offers from many suppliers all over the world</span></p>
+                <input type="email" placeholder="Email">
+                <button ><span style="color: rgb(255, 255, 255);">Subscribe</span></button>
+            </div>
+    
+            <div class="footer-container">
+                <div class="footer-content">
+                    <div class="footer-section brand-info">
+                        <img src="Brand/logo-colored.svg" alt="">
+                        <p>Best information about the company goes here but now lorem ipsum is</p>
+                        <div class="social-icons">
+                            <img src="SNS/icons8-facebook-60.png" alt="Facebook">
+                            <img src="SNS/icons8-twitter-bird-50.png" alt="Twitter">
+                            <img src="SNS/icons8-linkedin-50.png" alt="LinkedIn">
+                            <img src="SNS/youtube.png" alt="YouTube">
+                        </div>
+                    </div>
+        
+                    <div class="footer-section">
+                        <h3> <span style="color: black;">About</span></h3>
+                        <ul>
+                            <li>About Us</li>
+                            <li>Find store</li>
+                            <li>Categories</li>
+                            <li>Blogs</li>
+                        </ul>
+                    </div>
+        
+                    <div class="footer-section">
+                        <h3 ><span style="color: black;">Partnership</span></h3>
+                        <ul>
+                            <li>About Us</li>
+                            <li>Find store</li>
+                            <li>Categories</li>
+                            <li>Blogs</li>
+                        </ul>
+                    </div>
+        
+                    <div class="footer-section">
+                        <h3><span style="color: black;">Information</span></h3>
+                        <ul>
+                            <li>Help Center</li>
+                            <li>Money Refund</li>
+                            <li>Shipping</li>
+                            <li>Contact us</li>
+                        </ul>
+                    </div>
+        
+                    <div class="footer-section">
+                        <h3><span style="color: black;">For users</span></h3>
+                        <ul>
+                            <li>Login</li>
+                            <li>Register</li>
+                            <li>Settings</li>
+                            <li>My Orders</li>
+                        </ul>
+                    </div>
+        
+                    
+        
+                
+            </div>
+            <div class="footer-bottom">
+                &copy; 2023 Ecommerce. <br>
+              
+            </div>
+        </footer>
+    
+</body>
+</html>
